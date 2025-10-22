@@ -46,13 +46,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="relative"
           >
-            <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-cyan-400/30 glow-effect">
-              <img
-                src="/farhan.jpeg"
-                alt="Profile"
-                className="w-full h-full object-cover"
-              />
-            </div>
+            
             <motion.div
               animate={{ rotate: 360 }}
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
