@@ -28,25 +28,6 @@ export default function About() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           <motion.div
-            initial={{ x: -50, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            <div className="relative">
-              <img
-                src="/farhan.jpeg\"
-                alt="About Profile"
-                className="rounded-2xl w-full h-[500px] object-cover border-4 border-cyan-400/30 glow-effect"
-              />
-              <motion.div
-                animate={{ scale: [1, 1.2, 1] }}
-                transition={{ duration: 3, repeat: Infinity }}
-                className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-r from-fuchsia-500 to-cyan-400 rounded-full opacity-20 blur-2xl"
-              />
-            </div>
-          </motion.div>
-
-          <motion.div
             initial={{ x: 50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
