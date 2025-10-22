@@ -34,7 +34,7 @@ export default function About() {
           >
             <div className="relative">
               <img
-                src="blob:https://web.whatsapp.com/ed15686b-8cea-4988-a9e9-d749f58c52b1"
+                src="/farhan.jpeg\"
                 alt="About Profile"
                 className="rounded-2xl w-full h-[500px] object-cover border-4 border-cyan-400/30 glow-effect"
               />

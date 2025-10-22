@@ -48,7 +48,7 @@ export default function Home() {
           >
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-cyan-400/30 glow-effect">
               <img
-                src="blob:https://web.whatsapp.com/ed15686b-8cea-4988-a9e9-d749f58c52b1"
+                src="/farhan.jpeg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
